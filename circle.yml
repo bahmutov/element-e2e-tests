@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 8.4.0
+
+dependencies:
+  cache_directories:
+    - "node_modules"
+
+test:
+  override:
+    - cypress run --record
