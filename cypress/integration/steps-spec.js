@@ -53,11 +53,14 @@ describe('Steps', () => {
     // close it
     firstSteps()
       .find('.demo-block-control').click()
-    // hmm, the element is behind other elements, why
-    // is it visible?
-    // firstSteps()
-    //   .find('.highlight code').should('not.be.visible')
     getHeight()
       .should('eq', 0)
+  })
+
+  it.skip('hides code by default', () => {
+    // hmm, the element is behind other elements, why
+    // is it visible?
+    firstSteps()
+      .find('.highlight code').should('not.be.visible')
   })
 })
