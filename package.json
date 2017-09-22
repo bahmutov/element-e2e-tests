@@ -1,0 +1,25 @@
+{
+  "name": "element-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E tests for Element library http://element.eleme.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/element-e2e-tests.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/element-e2e-tests/issues"
+  },
+  "homepage": "https://github.com/bahmutov/element-e2e-tests#readme",
+  "devDependencies": {
+    "cypress": "^0.20.1"
+  }
+}
